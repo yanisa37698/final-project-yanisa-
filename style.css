@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #ff8f8f;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #ff8c8c;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://www.fdli.org/wp-content/uploads/2020/05/The-Regulation-of-Cosmetics-scaled.jpeg');
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #ff1493;
+}
+
+/* Products Section */
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.product p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.product a {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product a:hover {
+    background-color: #ff1493;
+}
+
+/* Product Detail Page */
+.product-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.product-detail img {
+    max-width: 400px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.product-info h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-info p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-info button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-info button:hover {
+    background-color: #ff1493;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background-color: #b94b94;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
